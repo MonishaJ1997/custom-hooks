@@ -12,7 +12,7 @@ import TimeoutExample from "./components/useTimeout/index.jsx";
 import ClipboardExample from "./components/useClipboard/index.jsx";
 import MediaQueryExample from "./components/useMediaQuery/index.jsx";
 import OnlineStatusExample from "./components/useOnlineStatus/index.jsx";
-import GeolocationExample from "./components/useGeolocation/index.jsx";
+import GeolocationExample from "./components/useGeoLocation/index.jsx";
 import ThemeExample from "./components/useTheme/index.jsx";
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
     { title: "11️⃣ useClipboard", Component: ClipboardExample },
     { title: "12️⃣ useMediaQuery", Component: MediaQueryExample },
     { title: "13️⃣ useOnlineStatus", Component: OnlineStatusExample },
-    { title: "14️⃣ useGeolocation", Component: GeolocationExample },
+    { title: "14️⃣ useGeoLocation", Component: GeolocationExample },
     { title: "15️⃣ useTheme", Component: ThemeExample },
   ];
 
