@@ -1,10 +1,10 @@
 
 
 import React from "react";
-import { useGeolocation } from "./useGeoLocation.js";
+import { useGeoLocation } from "./useGeoLocation.js";
 
-const GeolocationExample = () => {
-  const { latitude, longitude } = useGeolocation();
+const GeoLocationExample = () => {
+  const { latitude, longitude } = useGeoLocation();
 
   return (
     <p>
@@ -13,5 +13,5 @@ const GeolocationExample = () => {
   );
 };
 
-export default GeolocationExample;
+export default GeoLocationExample;
 
