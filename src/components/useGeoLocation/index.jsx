@@ -1,7 +1,7 @@
 
 
 import React from "react";
-import { useGeolocation } from "./useGeolocation.js";
+import { useGeolocation } from "./useGeoLocation.js";
 
 const GeolocationExample = () => {
   const { latitude, longitude } = useGeolocation();
